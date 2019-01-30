@@ -5,7 +5,7 @@ public class Trapezoid extends Shape {
         super();
     }
 
-    Trapezoid(Integer x, Integer y) {
+    Trapezoid(int x, int y) {
         super(x, y);
     }
 }
