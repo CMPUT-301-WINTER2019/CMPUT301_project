@@ -3,6 +3,7 @@ package com.cmput301_project;
 public abstract class Shape {
     private int x;
     private int y;
+    private int z;
 
     public Shape() {}
 
@@ -26,4 +27,13 @@ public abstract class Shape {
     public void setY(int y) {
         this.y = y;
     }
+
+    public int getZ() {
+        return z;
+    }
+
+    public void setZ(int z) {
+        this.z = z;
+    }
+
 }
