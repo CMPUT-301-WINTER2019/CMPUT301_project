@@ -5,4 +5,18 @@ public class Square extends Shape{
         super(x, y);
     }
 
+    public Square(int x, int y, int length) {
+        super(x, y);
+        this.length = length;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    private int length;
 }
